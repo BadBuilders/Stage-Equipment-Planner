@@ -1,0 +1,5 @@
+{
+  "name": "Stage Equipment Planner",
+  "description": "An interactive tool to plan and visualize the layout of equipment on a stage. Select items like cameras, lights, and speakers, then click to place them. Drag to reposition, and use controls to rotate or delete items for the perfect setup.",
+  "requestFramePermissions": []
+}
