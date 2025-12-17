@@ -157,10 +157,6 @@ const App: React.FC = () => {
                 onMouseUp={handleMouseUp}
                 onMouseLeave={handleMouseUp}
               >
-                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-gray-900 bg-opacity-70 px-6 py-2 rounded-full pointer-events-none">
-                  <span className="text-white font-semibold tracking-widest">STAGE</span>
-                </div>
-
                 <div className="absolute inset-0 opacity-10 pointer-events-none">
                   {Array.from({ length: 20 }).map((_, i) => (
                     <div key={`v-${i}`} className="absolute h-full w-px bg-white" style={{ left: `${i * 5}%` }} />

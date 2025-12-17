@@ -2,7 +2,7 @@
 import type { LucideProps } from 'lucide-react';
 import type React from 'react';
 
-export type EquipmentTypeId = 'camera' | 'light' | 'speaker' | 'mic' | 'monitor' | 'instrument';
+export type EquipmentTypeId = 'camera' | 'light' | 'speaker' | 'mic' | 'monitor' | 'instrument' | 'person';
 
 export interface EquipmentType {
   id: EquipmentTypeId;

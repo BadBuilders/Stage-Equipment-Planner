@@ -1,5 +1,5 @@
 
-import { Camera, Lightbulb, Music, Monitor, Mic, Speaker } from 'lucide-react';
+import { Camera, Lightbulb, Music, Monitor, Mic, Speaker, User } from 'lucide-react';
 import type { EquipmentType } from './types';
 
 export const EQUIPMENT_TYPES: EquipmentType[] = [
@@ -9,4 +9,5 @@ export const EQUIPMENT_TYPES: EquipmentType[] = [
   { id: 'mic', name: 'Microphone', icon: Mic, color: 'bg-red-500' },
   { id: 'monitor', name: 'Monitor', icon: Monitor, color: 'bg-green-500' },
   { id: 'instrument', name: 'Instrument', icon: Music, color: 'bg-orange-500' },
+  { id: 'person', name: 'Person', icon: User, color: 'bg-pink-500' },
 ];
